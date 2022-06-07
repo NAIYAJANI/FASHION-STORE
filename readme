@@ -1,0 +1,61 @@
+1) make a new file name app.js
+
+
+
+2)open the terminal and then run 
+             npm init 
+
+3) after that install pug and express 
+            npm install pug 
+            npm install express            
+
+4) make  a folder name static, in which make two files name index.js and style.css
+
+5) make  a folder name views , in which many files of templates will come
+
+
+     make a file inside the views folder name 
+                 index.pug
+
+
+6) after that use starter template to copy the stuffs related to pug,express ,end points and listning port code
+
+
+7)remove all the content given in params(which is unnecessary)
+  
+8)In index.pug file copy the starter template from the pug documentation
+
+9) From the documentation remove the default name of the css and java script file ,change them and make them as the name of the files given in the static folder
+
+
+10)start making the website by putting html and css inside it
+
+
+11) After that I made a page of contact and given its link in the href which is defined in the html file
+
+
+
+
+             ADDING MONGOOSE IN APP.JS FILE
+
+
+12)Then after we need to , add a mongoose in the file
+
+13) Open the documentation of mongoose and copy the geeting started file
+
+
+14) Copy the first 3 given documentatiions and then make the changes as needed
+
+15)Now make the changes in contact , in which change the get method to the post
+
+16) After that install body parser module
+
+
+npm install body-parser
+
+
+17) After that call the body parser in the app.js
+
+const bodyparser= require("body-parser")
+
+18) Thenafter, in contact (express related stuffs) type the code so that the data can be taken from the form
